@@ -834,15 +834,5 @@ plt.title('Mean Squared Error Comparison for Different Models')
 plt.show()
 
 
-# In[ ]:
-
-
-logistic regression, svm ,F1 , random forest , decission tree, knn,navie bias accuracy on classification
-And 'KNN', 'Decision Tree', 'Random Forest' using mean squareD error , 
-
-
-# In[ ]:
-
-
 
 
