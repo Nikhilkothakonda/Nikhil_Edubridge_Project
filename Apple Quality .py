@@ -483,18 +483,6 @@ sns.pairplot(apple, hue='Quality', diag_kind='kde')
 plt.show()
 
 
-# In[53]:
-
-
-# Distribution Plot
-# A distribution plot is a graphical representation that displays the distribution of a univariate variable, typically showing the frequency or probability density of different values along the axis.
-numeric_features = ['Size', 'Weight', 'Sweetness', 'Crunchiness', 'Juiciness', 'Ripeness']
-for feature in numeric_features:
-    plt.figure(figsize=(8, 6))
-    sns.histplot(data=apple, x=feature, hue='Quality', element='step', kde=True, common_norm=False)
-    plt.title(f'Distribution of {feature} by Quality')
-    plt.show()
-
 
 # In[54]:
 
@@ -515,12 +503,7 @@ plt.title(f'ROC Curve (AUC = {roc_auc:.2f})')
 plt.show()
 
 
-# In[56]:
 
-
-# Violin Plots
-sns.violinplot(x='Quality', y='Crunchiness', data=apple)
-plt.show()
 
 
 # In[72]:
