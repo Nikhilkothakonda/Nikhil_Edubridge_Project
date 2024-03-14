@@ -653,17 +653,6 @@ svm_accuracy = accuracy_score(ytest, y_pred)
 print("Accuracy:", svm_accuracy)
 
 
-# In[69]:
-
-
-from sklearn import metrics
-mean_aberror = metrics.mean_absolute_error(ytest,output)
-mean_sqerror = metrics.mean_squared_error(ytest,output)
-rmsqurrerror = np.sqrt(metrics.mean_squared_error(ytest,output))
-print(m.score(x,y)*100)
-print(mean_aberror) 
-print(mean_sqerror)
-print(rmsqurrerror) 
 
 
 # In[70]:
